@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ef92d79-3046-4fdb-a26d-a76f216de581" name="Default Changelist" comment="Created Django project and app">
+    <list default="true" id="4ef92d79-3046-4fdb-a26d-a76f216de581" name="Default Changelist" comment="Added Hello API View">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_api/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_api/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +51,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/profile_api" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\django dev\profiles-rest-api\profile_api" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="profiles-rest-api" type="Python.DjangoServer" factoryName="Django server">
@@ -100,7 +104,9 @@
       <workItem from="1607429688508" duration="1169000" />
       <workItem from="1607432058397" duration="958000" />
       <workItem from="1607434387033" duration="3185000" />
-      <workItem from="1607489588077" duration="370000" />
+      <workItem from="1607489588077" duration="5160000" />
+      <workItem from="1607666386111" duration="2549000" />
+      <workItem from="1608127581469" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="Created Django project and app">
       <created>1607058756444</created>
@@ -116,7 +122,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607080424911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Enabled Django admin UI">
+      <created>1607490226339</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607490226339</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Hello API View">
+      <created>1607491766344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607491766344</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +156,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Django project and app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Django project and app" />
+    <MESSAGE value="Enabled Django admin UI" />
+    <MESSAGE value="Added Hello API View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Hello API View" />
   </component>
 </project>
