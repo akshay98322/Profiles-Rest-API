@@ -4,15 +4,15 @@ from django.conf import settings
 
 class UserProfileManager(BaseUserManager):
     """Manager for user profiles"""
-    def create_user(self,email,name,passord=None):
+    def create_user(self,email,name,password=None):
         """Create a new user profile"""
         if not email:
             raise ValueError("User must have an email")
 
         email = self.normalize_email(email)
-        user = self.model(name=name,email=email)
+        user = self.model(email=email,name=name)
 
-        user.set_password(passord)
+        user.set_password(password)
         user.save(using=self._db)
 
         return user
@@ -53,7 +53,7 @@ class ProfileFeedItem(models.Model):
     """Profile status update"""
     user_profile =models.ForeignKey(
         settings.AUTH_USER_MODEL,
-        on_delete=models.DateTimeField
+        on_delete=models.CASCADE
     )
     status_text = models.CharField(max_length=255)
     created_on = models.DateTimeField(auto_now_add=True)

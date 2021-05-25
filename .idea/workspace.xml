@@ -10,9 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ef92d79-3046-4fdb-a26d-a76f216de581" name="Default Changelist" comment="Added Hello API View">
+    <list default="true" id="4ef92d79-3046-4fdb-a26d-a76f216de581" name="Default Changelist" comment="Added POST, PATCH and DELETE to our project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile_api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/profile_api/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +51,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/profile_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -106,7 +108,23 @@
       <workItem from="1607434387033" duration="3185000" />
       <workItem from="1607489588077" duration="5160000" />
       <workItem from="1607666386111" duration="2549000" />
-      <workItem from="1608127581469" duration="363000" />
+      <workItem from="1608127581469" duration="2159000" />
+      <workItem from="1608180092757" duration="6354000" />
+      <workItem from="1608438213392" duration="3362000" />
+      <workItem from="1608528248987" duration="1087000" />
+      <workItem from="1608991923889" duration="118000" />
+      <workItem from="1608992112031" duration="4208000" />
+      <workItem from="1609162980471" duration="1487000" />
+      <workItem from="1609332304000" duration="2546000" />
+      <workItem from="1609511812607" duration="1197000" />
+      <workItem from="1609518796197" duration="609000" />
+      <workItem from="1609595322936" duration="683000" />
+      <workItem from="1609603471965" duration="315000" />
+      <workItem from="1609732092457" duration="3638000" />
+      <workItem from="1609738704743" duration="1317000" />
+      <workItem from="1609821625538" duration="2061000" />
+      <workItem from="1609908914953" duration="8000" />
+      <workItem from="1621927277293" duration="175000" />
     </task>
     <task id="LOCAL-00001" summary="Created Django project and app">
       <created>1607058756444</created>
@@ -136,7 +154,49 @@
       <option name="project" value="LOCAL" />
       <updated>1607491766344</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added POST, PATCH and DELETE to our project">
+      <created>1608128184524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608128184524</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added View Set to profiles API">
+      <created>1608184666471</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608184666472</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added profiles viewset">
+      <created>1608993750512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608993750513</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added searching to user profile API">
+      <created>1608994415093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608994415093</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added log in API">
+      <created>1609170154263</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609170154264</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added User profile feed API">
+      <created>1609824125455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609824125455</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +218,12 @@
     <MESSAGE value="Created Django project and app" />
     <MESSAGE value="Enabled Django admin UI" />
     <MESSAGE value="Added Hello API View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Hello API View" />
+    <MESSAGE value="Added POST, PATCH and DELETE to our project" />
+    <MESSAGE value="Added View Set to profiles API" />
+    <MESSAGE value="Added profiles viewset" />
+    <MESSAGE value="Added searching to user profile API" />
+    <MESSAGE value="Added log in API" />
+    <MESSAGE value="Added User profile feed API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added User profile feed API" />
   </component>
 </project>
